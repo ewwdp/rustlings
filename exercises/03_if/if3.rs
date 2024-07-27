@@ -7,7 +7,7 @@ fn animal_habitat(animal: &str) -> &str {
     } else if animal == "snake" {
         3
     } else {
-        i32::max_value()
+        i32::MAX
     };
 
     // Don't change the expression below!
